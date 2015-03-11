@@ -1,0 +1,99 @@
+* {
+    font-family: Arial;
+    font-size: 10px;
+}
+
+hr {
+  border-top: 1px dotted #2d6abc;
+  height: 1px;
+}
+
+h1 {
+    color: #2d6abc;
+    font-size: 2.4rem;
+}
+
+#content {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.film {
+    font-size: 1.4rem;
+    margin:5px;
+    padding:5px 10px;
+    min-height: 80px;
+    border:2px solid #e2e2e2;
+    border-radius: 3px;
+    background: #f2f2f2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f2f2f2 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f2f2f2 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f2f2f2 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f2f2f2 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f2f2f2 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+.film h2 {
+    font-size: 1.2rem;
+    margin:0;
+    padding:0;
+}
+
+.film .type {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.film .actors {
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+.film_wrapper {
+    margin:0;
+    padding:0;
+}
+
+.film:hover {
+    color:#2d6abc;
+    border: 2px solid #92b1dc;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #cccccc;
+    background: #f2f2f2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f2f2f2 0%, #c8d6e6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#c8d6e6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f2f2f2 0%,#c8d6e6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f2f2f2 0%,#c8d6e6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f2f2f2 0%,#c8d6e6 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f2f2f2 0%,#c8d6e6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c8d6e6',GradientType=0 ); /* IE6-9 */
+}
+}
+
+/*mobile first*/
+@media (min-width: 0px) {
+  .film_wrapper {
+    width:100%;
+    float:none;
+  }
+}
+
+@media (min-width:401px) {
+  .film_wrapper {
+    width:50%;
+    float:left;
+  }
+}
+
+@media (min-width: 641px) {
+  .film_wrapper {
+    width:33%;
+    float:left;
+  }
+}
+
+
+
+

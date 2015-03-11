@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Crazy Joe's Video Store - All Films</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <div id="content">
+        <h1>Crazy Joe's Video Store - All Films</h1>
+        <hr/>
+        {% for film in films %}
+        <div class="film_wrapper">
+            <div class="film">
+                <h2>{{ film.title }} ({{film.rating}})</h2>
+                <div class="type">film {{film.release_year}}</div>
+                <div class="actors">film actors</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
